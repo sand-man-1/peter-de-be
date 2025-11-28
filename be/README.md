@@ -36,18 +36,17 @@ pip install -r requirements.txt
 ## set up Postgres DB
 brew services start postgresql
 createdb transactions_db
-createuser transactions_user --pwprompt
 
 ## in settings.py
 
 
 ## create .env
 DB_NAME=transactions
-DB_USER=admin         # same as `whoami`
+DB_USER=admin             # same as `whoami` in terminal
 DB_PASSWORD=              # leave blank for local dev
 DB_HOST=localhost
 DB_PORT=5432
-DJANGO_SECRET_KEY =  # in settings.py
+DJANGO_SECRET_KEY =       # in settings.py
 DJANGO_DEBUG = True
 
 ## seed data 
