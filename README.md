@@ -1,2 +1,3 @@
 # peter-de-be
-Transaction Pivot table viewing for BE pos
+Transaction Pivot table SPA for BE pos
+

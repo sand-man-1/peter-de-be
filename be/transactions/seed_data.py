@@ -5,7 +5,7 @@ def run():
     #seeding function to load inital raw data into postgres DB. call this from Django shell once
 
     RAW_DATA = [
-  { "transaction_type": "invoice", "transaction_number": "135", "amount": "490", "status": "paid", "year": "2025" },
+  { "transaction_type": "invoice", "transaction_number": "135", "amount": "490", "status": "paid", "year": "2026" },
   { "transaction_type": "invoice", "transaction_number": "2025/5", "amount": "340", "status": "paid", "year": "2025" },
   { "transaction_type": "invoice", "transaction_number": "FV/25/01", "amount": "14.50", "status": "paid", "year": "2023" },
   { "transaction_type": "invoice", "transaction_number": "661/25", "amount": "1046.90", "status": "unpaid", "year": "2024" },
