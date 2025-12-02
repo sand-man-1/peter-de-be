@@ -5,11 +5,10 @@ class Transaction(models.Model):
   
     transaction_type = models.CharField(max_length=32)
 
-    
     transaction_number = models.CharField(max_length=64)
 
     
-    amount = models.DecimalField(max_digits=12, decimal_places=2)
+    amount = models.DecimalField(max_digits=16, decimal_places=2)
 
     
     status = models.CharField(max_length=32)
